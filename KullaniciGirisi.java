@@ -23,9 +23,9 @@ public class KullaniciGirisi {
                 switch (choice) {
                     case 1:
                         System.out.print("Yeni şifrenizi giriniz: ");
-                        String yenisifre = input.next();
+                        String yeniSifre = input.next();
 
-                        if (yenisifre.equals("123456")) {
+                        if (yeniSifre.equals("123456")) {
                             System.out.println("Yeni şifreniz eskisiyle aynı olamaz.");
                         } else {
                             System.out.println("Şifre değiştirme başarılı.");
